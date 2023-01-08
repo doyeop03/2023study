@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+.title1,.title2{
+    border-style:solid;
+    margin:50px;
+}
+
