@@ -1,10 +1,27 @@
 .container{
     display:flex;
     justify-content:center;
-    flex-direction:row;
+    flex-direction:column;
 }
-.title1,.title2{
+.title{ 
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom:30px;
+    font-size:60px;
+    color:#1ec800;
+}
+.main{
     border-style:solid;
-    margin:50px;
+    margin:10px auto;
+    width:400px;
+    padding:30px;
+    border-color:gainsboro;
+    
 }
-
+.item{
+    border-style:solid;
+   /* margin:0px auto;*/
+    text-align:center; 
+    border-width:5px; 
+    padding:5px 100px 5px 100px;    
+}
