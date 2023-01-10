@@ -9,6 +9,12 @@
     margin-bottom:30px;
     font-size:60px;
     color:#1ec800;
+    background: none;
+    padding:0;
+    margin-left: auto;
+    margin-right:auto;
+    border:none;
+    cursor:pointer;
 }
 .main{
     border-style:solid;
@@ -16,12 +22,29 @@
     width:400px;
     padding:30px;
     border-color:gainsboro;
-    
+    border-radius:10px;
 }
 .item{
     border-style:solid;
-   /* margin:0px auto;*/
-    text-align:center; 
-    border-width:5px; 
-    padding:5px 100px 5px 100px;    
+    text-align:left;  
+    padding:5px 160px 5px 15px;   
+    border-color:gainsboro; 
+    margin:-2px;
+    font-size:18px;
+    
+    outline-color:#1ec800;
+    display:block;
+    
 }
+.login{
+    text-align:center;
+    border-style:solid;
+    font-size:25px;
+    color:white;
+    background-color: #1ec800;
+    border-color:#1ec800;
+    border-radius:10px;
+    margin-top: 70px;
+    margin-bottom: 0px;;
+}
+input::placeholder{color:gainsboro;}
