@@ -1,3 +1,4 @@
+
 .container{
     display:flex;
     justify-content:center;
@@ -31,7 +32,6 @@
     border-color:gainsboro; 
     margin:-2px;
     font-size:18px;
-    
     outline-color:#1ec800;
     display:block;
     
@@ -46,5 +46,22 @@
     border-radius:10px;
     margin-top: 70px;
     margin-bottom: 0px;;
+    padding: 5px 160px 5px 160px;
+    cursor:pointer;
 }
 input::placeholder{color:gainsboro;}
+.search{
+    color:gray;
+    text-align: center;
+    font-size:14px;
+}
+.search>span::after{
+    content:"|";
+    margin:0px 20px;
+    color:gray;
+}
+.search>span:last-child:after{content:none;}
+#err{
+    margin-top: 10px;
+    color:red;
+}

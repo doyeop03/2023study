@@ -3,15 +3,23 @@
     <head>
         <link rel="stylesheet" href="2023study.css" type="text/css">
         <script type="text/javascript" src="2023study.js"></script>
+        <script src="https://kit.fontawesome.com/e8dcb6a43a.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="container">
-            <input class="title" onclick=join() type='button' value='NAVER'>
-                <div class="main">
-                <input class="item id" placeholder="아이디">
-                <input class="item password" type="password" placeholder="패스워드">
-                <p class="login">로그인</p>   
-            </div>   
+            <input class="title" onclick=join1() type='button' value='NAVER'>
+            <div class="main">
+                <input class="item id" id="id" placeholder="아이디" type="text">
+                <input class="item password" id="password" type='password' placeholder="비밀번호">
+                <div id="err"></div>
+                <input class="login" id="signinButton" type="button" value="로그인" onclick=signinFunc()>   
+            </div>  
+            <div class="search">
+                <span class="search1">비밀번호 찾기</span>
+                <span class="search2">아이디 찾기</span>
+                <span class="search3">회원가입</span>
+            </div> 
+            
         </div>
     </body> 
     
