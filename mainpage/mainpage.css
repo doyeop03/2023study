@@ -2,8 +2,8 @@
     display:flex;
     justify-content:center;
     flex-direction:column;
-    align-items: center;
 }
+body{margin:0;}
 img{
     margin:auto;
     display: block;
@@ -11,18 +11,14 @@ img{
     margin-top:40px;
     margin-bottom:30px;
 }
-.main{
-    border-bottom: 6px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    
+.menu{
+    border-width: 0px 0px 6px 0px;
     border-style: solid;
     text-align: center;
-    width:1536px;
+    height:190px;
 }
 .item{
-    margin:10px;;
+    margin: 0px 8px 0px 8px;
     border:none;
     background-color: white;
     font-size: 14px;
@@ -30,3 +26,53 @@ img{
     display:inline; 
     text-align:center;
 }
+.item:hover{/*메뉴 클릭시 하단바 생성*/
+    border-width: 0px 0px 3px 0px;
+    border-style: solid; 
+}
+
+
+.second ul.third/*팝업창 위치*/
+ {
+   margin-top:0px;
+ }
+ .second ul.third{/*팝업창 디자인*/
+   display: none;
+   background-color: greenyellow; 
+   position: absolute;
+   width:100%;
+   height:55%;
+   list-style: none;
+   border-width: 0px 0px 6px 0px;
+   border-style: solid; 
+ }
+ .second:hover ul.third{
+     display: block;
+ }
+ .second ul.third li/*아마 본문 텍스트 배치?*/
+ {
+   text-align: left;
+   margin: 0px 80px 0px 170px;
+   padding-top: 30px;
+ 
+ }
+
+
+
+
+ .second ul.third li a/*잘 모르겠음*/
+ {
+     display: block;
+ }
+ .second:hover/*커서 놓았을때 원래 박스 변경*/
+ {
+     background: pink;
+ }
+ .second{
+   white-space:nowrap;
+   text-align: center;
+   list-style: none;
+   float:left;
+   display: contents;
+ }
+
