@@ -4,10 +4,10 @@ function join1(){
 }
 function join2(){
     window.location.href=
-    'file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/mainpage.html'
+    'file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/mainpage/mainpage.html#'
 }
 function signup(){
-  window.open('file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/signup.html')
+  window.open('file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/signup/signup.html')
 }
 
 //console.log(document); // html 태그 전체를 콘솔에 띄워주자.
@@ -21,7 +21,7 @@ function signinFunc() {
   if(id == "doyeop" && password == "0000") {
    // err.innerText=" 로그인 성공";
    window.location.href=
-   'file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/mainpage.html';
+   'file:///C:/Users/doyeo/OneDrive/%EB%AC%B8%EC%84%9C/2023study/mainpage/mainpage.html#';
 
     console.log("로그인 성공했습니다.");
   } else {
